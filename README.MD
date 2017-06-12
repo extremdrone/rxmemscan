@@ -1,14 +1,18 @@
 Requirements
 ===================
  - [theos](https://github.com/theos/theos)
- - readline
+ - readline (use this build https://github.com/sterling0x1/libreadline-arm)
 
+Before building
+-------------
+
+Clone/download readline and copy paste content from libs and include to theos/libs and theos/include
 
 Make & Install
 -------------
 
     $ cd rxmemscan
-    $ make do FINALPACKAGE=1
+    $ make package or make package install
 
 
 Usage
